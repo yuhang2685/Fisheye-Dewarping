@@ -14,7 +14,7 @@ The input is a video from fisheye camera. The output should be a dewarped video.
    https://github.com/BlueHorn07/py-fisheye-dewarp
 
    https://github.com/BlueHorn07/py-fisheye-dewarp/wiki/(ENG)-Fisheye-Dewarp
-
-2. Converting a fisheye image into a panoramic, spherical or perspective projection:
-
-   http://paulbourke.net/dome/fish2/
+   
+### Progress:
+1. First, we check if the candidate code is workable.
+   We use PyCharm to create an object and run the code, and it works.
