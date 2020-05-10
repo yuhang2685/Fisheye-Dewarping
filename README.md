@@ -25,3 +25,5 @@ fisheye → spherical → longitude/latitude.
 ### Progress:
 1. First, we check if the candidate code is workable.
    We use PyCharm to create an object and run the code, and it works.
+2. Study the paper "A practical distortion correcting method from fisheye image to perspective projection image" to understand the mechanism of the code, which is essential to modify the code as we want.
+3. Study "opencv" which is the tool for converting between vedio and image.
