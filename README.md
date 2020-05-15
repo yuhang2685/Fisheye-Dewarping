@@ -22,8 +22,14 @@ like world map.
 In brief, the procedure can be illustrated as below:
 fisheye → spherical → longitude/latitude.
 
+It seems like the code is unfinished. The based on paper has no public codes.
+
+2. Calibrate fisheye lens using OpenCV
+
+   https://medium.com/@kennethjiang/calibrate-fisheye-lens-using-opencv-333b05afa0b0
+
 ### Progress:
-1. First, we check if the candidate code is workable.
+1. First, we check if the code "py-fisheye-dewarp" is workable.
    We use PyCharm to create an object and run the code, and it works.
 2. Study the paper "A practical distortion correcting method from fisheye image to perspective projection image" to understand the mechanism of the code, which is essential to modify the code as we want.
 3. Study "opencv" which is the tool for converting between vedio and image.
