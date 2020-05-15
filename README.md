@@ -33,3 +33,7 @@ It seems like the code is unfinished. The based on paper has no public codes.
    We use PyCharm to create an object and run the code, and it works.
 2. Study the paper "A practical distortion correcting method from fisheye image to perspective projection image" to understand the mechanism of the code, which is essential to modify the code as we want.
 3. Study "opencv" which is the tool for converting between vedio and image.
+4. Process the captured image to undistort.
+![screenshot](https://github.com/yuhang2685/Fisheye-Dewarping/blob/master/frame269.jpg)
+![screenshot](https://github.com/yuhang2685/Fisheye-Dewarping/blob/master/frame269_undistorted.jpg)
+
