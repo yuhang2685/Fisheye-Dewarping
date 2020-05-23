@@ -33,5 +33,5 @@ It seems like the code is unfinished. The based on paper has no public codes.
 5. Modify the parameters intrinsic to the camera lens to undistort the captured video image.
 
 ![screenshot](https://github.com/yuhang2685/Fisheye-Dewarping/blob/master/frame269.jpg)
-![screenshot](https://github.com/yuhang2685/Fisheye-Dewarping/blob/master/frame269_undistorted.jpg)
+![screenshot](https://github.com/yuhang2685/Fisheye-Dewarping/blob/master/frame269-undistorted.jpg)
 
