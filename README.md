@@ -32,6 +32,13 @@ It seems like the code is unfinished. The based on paper has no public codes.
 4. Conduct experiments on codes from reference-2.
 5. Modify the parameters intrinsic to the camera lens to undistort the captured video image.
 
-![screenshot](https://github.com/yuhang2685/Fisheye-Dewarping/blob/master/frame269.jpg)
-![screenshot](https://github.com/yuhang2685/Fisheye-Dewarping/blob/master/frame269-undistorted.jpg)
+<img src="https://github.com/yuhang2685/Fisheye-Dewarping/blob/master/frame269.jpg" width="35%">
+<img src="https://github.com/yuhang2685/Fisheye-Dewarping/blob/master/frame269-undistorted.jpg" width="35%">
+
+6. Apply YOLOv4 object detection on the undistort image. However, the result is not good:
+<img src="https://github.com/yuhang2685/Fisheye-Dewarping/blob/master/YOLOv4-defaultWeights-uninstorted-K11-06-K22-160.jpg" width="35%">
+
+7. We rotate the image and try YOLOv4 again, the result is acceptable.
+<img src="https://github.com/yuhang2685/Fisheye-Dewarping/blob/master/rotate-uninstorted-K11-06-K22-160.jpg" width="35%">
+<img src="https://github.com/yuhang2685/Fisheye-Dewarping/blob/master/detection1.png" width="35%">
 
